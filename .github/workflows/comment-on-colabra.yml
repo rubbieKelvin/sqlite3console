@@ -1,0 +1,19 @@
+name: Colabra Comment Workflow
+
+on:
+  # # Choose when you want this to run, for example:
+  # push:
+  #   branches: [ main ]
+  # Or manually:
+  workflow_dispatch:
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: colabra/comment@v1
+        with:
+          api_key: sk_h28o420t1hdach0sqish7nn5wokichno0r1pbq4d5yzkmzpq
+          workspace_slug: rubbie-kelvin
+          resource_id: PRO-9
+          body_text: 'Your comment text here'
