@@ -11,7 +11,7 @@ jobs:
   comment:
     runs-on: ubuntu-latest
     steps:
-      - uses: colabra/comment@v1
+      - uses: ColabraHQ/colabra-action-comment@v1
         with:
           api_key: sk_h28o420t1hdach0sqish7nn5wokichno0r1pbq4d5yzkmzpq
           workspace_slug: rubbie-kelvin
